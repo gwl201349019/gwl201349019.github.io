@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>一、vue | latte and cat</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/logo.jpg">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.826a61d5.css" as="style"><link rel="preload" href="/assets/js/app.c42c3ddb.js" as="script"><link rel="preload" href="/assets/js/3.7ebe874d.js" as="script"><link rel="preload" href="/assets/js/46.40228b2d.js" as="script"><link rel="prefetch" href="/assets/js/1.8e113a48.js"><link rel="prefetch" href="/assets/js/10.33daba42.js"><link rel="prefetch" href="/assets/js/11.524ca2e6.js"><link rel="prefetch" href="/assets/js/12.347c0588.js"><link rel="prefetch" href="/assets/js/13.1a768f14.js"><link rel="prefetch" href="/assets/js/14.9b3bda40.js"><link rel="prefetch" href="/assets/js/15.55735e30.js"><link rel="prefetch" href="/assets/js/16.cc5bee87.js"><link rel="prefetch" href="/assets/js/17.c92fbae3.js"><link rel="prefetch" href="/assets/js/18.b077bd86.js"><link rel="prefetch" href="/assets/js/19.3031eab0.js"><link rel="prefetch" href="/assets/js/20.8b497b76.js"><link rel="prefetch" href="/assets/js/21.1ec95e18.js"><link rel="prefetch" href="/assets/js/22.07faaca8.js"><link rel="prefetch" href="/assets/js/23.9968419b.js"><link rel="prefetch" href="/assets/js/24.cf52cbe2.js"><link rel="prefetch" href="/assets/js/25.5b2e1f39.js"><link rel="prefetch" href="/assets/js/26.df22a23b.js"><link rel="prefetch" href="/assets/js/27.dd9dba81.js"><link rel="prefetch" href="/assets/js/28.664843b8.js"><link rel="prefetch" href="/assets/js/29.2b24ad92.js"><link rel="prefetch" href="/assets/js/30.4cac8a7d.js"><link rel="prefetch" href="/assets/js/31.abc29761.js"><link rel="prefetch" href="/assets/js/32.66815dca.js"><link rel="prefetch" href="/assets/js/33.a3f79c48.js"><link rel="prefetch" href="/assets/js/34.a6f38eeb.js"><link rel="prefetch" href="/assets/js/35.9455a925.js"><link rel="prefetch" href="/assets/js/36.6cd8ce5e.js"><link rel="prefetch" href="/assets/js/37.a2ecbcec.js"><link rel="prefetch" href="/assets/js/38.fbea9f7c.js"><link rel="prefetch" href="/assets/js/39.f68f6682.js"><link rel="prefetch" href="/assets/js/4.904a6bcb.js"><link rel="prefetch" href="/assets/js/40.93b97518.js"><link rel="prefetch" href="/assets/js/41.a4eb2aec.js"><link rel="prefetch" href="/assets/js/42.a47f1ed4.js"><link rel="prefetch" href="/assets/js/43.02fcb7d2.js"><link rel="prefetch" href="/assets/js/44.f52d75a2.js"><link rel="prefetch" href="/assets/js/45.c0f06577.js"><link rel="prefetch" href="/assets/js/47.7190d8a7.js"><link rel="prefetch" href="/assets/js/48.d0ecb8b3.js"><link rel="prefetch" href="/assets/js/49.99f9f87b.js"><link rel="prefetch" href="/assets/js/5.9d3d2cb5.js"><link rel="prefetch" href="/assets/js/50.0a4711fb.js"><link rel="prefetch" href="/assets/js/51.9d5875ff.js"><link rel="prefetch" href="/assets/js/52.9ed1a114.js"><link rel="prefetch" href="/assets/js/53.84a90612.js"><link rel="prefetch" href="/assets/js/54.d0c838ec.js"><link rel="prefetch" href="/assets/js/55.34c7d26a.js"><link rel="prefetch" href="/assets/js/6.07f67622.js"><link rel="prefetch" href="/assets/js/7.d3491999.js"><link rel="prefetch" href="/assets/js/8.c1deaf6b.js"><link rel="prefetch" href="/assets/js/9.0a373905.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.826a61d5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">latte and cat</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue/vueCreate.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/js/es6.html" class="nav-link">
+  js
+</a></li><li class="dropdown-item"><!----> <a href="/css/often.html" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/mobile/rem.html" class="nav-link">
+  移动端
+</a></li><li class="dropdown-item"><!----> <a href="/news/1、HTML+CSS面试题.html" class="nav-link">
+  2023面试题总结
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue/vueCreate.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/js/es6.html" class="nav-link">
+  js
+</a></li><li class="dropdown-item"><!----> <a href="/css/often.html" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/mobile/rem.html" class="nav-link">
+  移动端
+</a></li><li class="dropdown-item"><!----> <a href="/news/1、HTML+CSS面试题.html" class="nav-link">
+  2023面试题总结
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/news/1、HTML+CSS面试题.html" class="sidebar-link">一、HTML+CSS</a></li><li><a href="/news/2、JS+JQ面试题.html" class="sidebar-link">二、Javascript</a></li><li><a href="/news/3、JS高级面试题.html" class="sidebar-link">三、JS高级面试题</a></li><li><a href="/news/4、ES6面试题.html" class="sidebar-link">四、ES6面试题</a></li><li><a href="/news/5、Vue面试题.html" class="sidebar-link">五、Vue面试题</a></li><li><a href="/news/6、git及webpack及react及小程序的问题.html" class="sidebar-link">四、git</a></li><li><a href="/news/7、项目中的问题.html" class="sidebar-link">七 、项目中的问题</a></li><li><a href="/news/8、人资问题.html" class="sidebar-link">八、人资问题</a></li><li><a href="/news/9、web前端面试宝典.html" class="sidebar-link">一、HTML+CSS</a></li><li><a href="/news/毕业班经典必会面试题.html" class="sidebar-link">毕业班经典必会面试题</a></li><li><a href="/news/毕业班面试内容整理.html" class="sidebar-link">毕业班面试内容整理</a></li><li><a href="/news/面试题必会的3.0.html" class="active sidebar-link">一、vue</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#一、vue" class="sidebar-link">一、vue</a></li><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#二、js" class="sidebar-link">二、JS</a></li><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#三、git" class="sidebar-link">三、git</a></li><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#四、项目中的问题" class="sidebar-link">四、项目中的问题</a></li><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#五、小程序和react中的问题" class="sidebar-link">五、小程序和react中的问题</a></li><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#六、webpack" class="sidebar-link">六、webpack</a></li><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#七、人资问题" class="sidebar-link">七、人资问题</a></li><li class="sidebar-sub-header"><a href="/news/面试题必会的3.0.html#八、html-css" class="sidebar-link">八、HTML+CSS</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="一、vue"><a href="#一、vue" class="header-anchor">#</a> 一、vue</h2> <h4 id="_1、说说mvvm思想"><a href="#_1、说说mvvm思想" class="header-anchor">#</a> 1、说说MVVM思想</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>在MVVM框架下视图和模型是不能直接通信的，只能通过ViewModel进行交互，它能够监听到数据的变化，然后通知视图进行自动更新。
+MVC分为:Model(模型),View(视图),Controller(控制器) View用 Controller 来和Model进行联系。Controller是Model和View的协调者,View和Model不直接联系，它们之间都是单向联系，必须通过Controller来承上启下。
+区别：
+	mvc和mvvm都是一种设计思想。主要就是mvc中Controller演变成mvvm中的viewModel。
+mvvm主要解决了mvc中大量DOM 操作造成页面渲染性能降低，加载速度变慢，影响用户体验的问题，以及mvc单项通讯的问题。
+mvc =&gt;后端  mvvm =&gt;前端
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="_2、双向绑定原理"><a href="#_2、双向绑定原理" class="header-anchor">#</a> 2、双向绑定原理</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>当创建 Vue 实例时,vue 会遍历 data 选项的属性,利用 Object.defineProperty 为属性添加 getter 和 setter 对数据的读取进行劫持（getter 用来依赖收集,setter 用来派发更新）,并且在内部追踪依赖,在属性被访问和修改时通知变化。
+
+每个组件实例会有相应的 watcher 实例,会在组件渲染的过程中记录依赖的所有数据属性（进行依赖收集,还有 computed watcher,user watcher 实例）,之后依赖项被改动时,setter 方法会通知依赖与此 data 的 watcher 实例重新计算（派发更新）,从而使它关联的组件重新渲染。
+
+一句话总结:
+	vue.js 采用数据劫持结合发布-订阅模式,通过 Object.defineproperty 来劫持各个属性setter,getter,在数据变动时发布消息给订阅者,触发响应的监听回调。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="_3、什么是路由"><a href="#_3、什么是路由" class="header-anchor">#</a> 3、什么是路由</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>什么是路由
+	后端路由：对于普通的网站，所有的超链接都是URL地址，所有的URL地址都对应服务器上对应的资源，这个对应关系就是后端中的路由；
+
+	前端路由：对于单页面应用程序来说，主要通过URL中的hash(#号)来实现不同页面之间的切换，同时，hash有一个特点：HTTP请求中不会包含hash相关的内容；所以，这种通过hash改变来切换页面的方式，称作前端路由（区别于后端路由）；
+
+前端路由实现起来 就是匹配不同的 url 路径，进行解析，加载不同的组件，然后动态的渲染出区域 html 内容。
+
+hash模式
+	地址栏 URL 中的 # 符号，hash 虽然出现在 URL &gt;中，但不会被包括在 HTTP 请求中，对后端完全没有影响，因此改变 hash 不会重新加载页面。但是页面刷新的时候，会向服务器端请求数据。
+
+history模式
+	HTML5新增的, 改变URL而不刷新页面，地址栏没有#号，在项目打包的时候如果使用history模式，前端的URL必须和实际向后端发起请求的URL一致，后台配置支持，否则就会出现404错误
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_4、路由传参"><a href="#_4、路由传参" class="header-anchor">#</a> 4、路由传参</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>一、/:id的方法
+   注：页面刷新后参数不会丢失
+   1.在路由配置中在but路径（path）加上/:id,实现传参
+     {
+        path:'/todo1/but/:id',
+        name:'But',
+        component:()=&gt;import('../package/but')
+      },
+   2.使用方法
+  &lt;template&gt;
+    &lt;div class=&quot;bg&quot;&gt;
+        &lt;!-- 页面使用/:id传参  --&gt;
+        &lt;router-link :to=&quot;'/todo1/but/'+n&quot;&gt;but&lt;/router-link&gt;
+        &lt;div&gt;
+            &lt;button @click=&quot;toBut&quot;&gt;but&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;router-view&gt;&lt;/router-view&gt;
+    &lt;/div&gt;
+  &lt;/template&gt;
+  &lt;script&gt;
+    // import but from './but'
+    // import swiper from './swiper'
+    export default {
+        data () {
+            return {
+                o:{
+                    classname:'todostyle',
+                    text:'提交'
+                },
+                n:2
+            }
+        }，
+        methods:{
+            toBut(){
+                //js方法使用/:id实现页面传参
+                this.$router.push({path:`/todo1/but/${this.n}`})
+            },
+           
+        }
+    }
+  &lt;/script&gt;
+  &lt;style scoped&gt;
+  &lt;/style&gt;
+    3.在but页面获取参数
+     mounted(){
+            //route 代表了我跳转后的路由这个对象
+            //router 代表了我们整个路由对象VueRouter
+            console.log(this.$route.params.id)
+     },
+     
+二、params传参
+   注：必须使用name，刷新后会丢失，不会在地址栏显示，隐式传参，不能使用在重定向页面
+  &lt;template&gt;
+	&lt;!--页面使用params传参，to必须使用v-bind绑定--&gt;
+	&lt;div&gt;
+        &lt;router-link :to=&quot;{name:'todo3',params:{user:'Lucy'}}&quot;&gt;todo3&lt;/router-link&gt;
+    &lt;/div&gt;
+  &lt;/template&gt;
+  &lt;script&gt;
+   // js中使用params传参
+    this.$router.push({name:'todo3',params:{user:'Lucy'}})
+   //在todo3组件或子组件获取传递的参数方法如下
+	this.$route.params.user
+  &lt;/script&gt;
+  
+三、query传参
+   注： 使用name和path都行，刷新后不会丢失，会在地址栏显示，不能使用在重定向页面
+  &lt;template&gt;
+	&lt;!--页面使用query传参，to必须使用v-bind绑定--&gt;
+	&lt;div&gt;
+        &lt;router-link :to=&quot;{name:'todo3',query:{user:'Lucy'}}&quot;&gt;todo3&lt;/router-link&gt;
+        &lt;router-link :to=&quot;{path:'todo4',query:{user:'Lucy'}}&quot;&gt;todo4&lt;/router-link&gt;
+    &lt;/div&gt;
+  &lt;/template&gt;
+  &lt;script&gt;
+   // js中使用query传参
+     this.$router.push({name:'todo3',params:{user:'Lucy'}})
+     this.$router.push({path:'todo3',params:{user:'Lucy'}})
+   //在todo3组件或子组件获取传递的参数方法如下
+	 this.$route.query.user
+  &lt;/script&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br></div></div><h4 id="params传参和query传参的区别"><a href="#params传参和query传参的区别" class="header-anchor">#</a> Params传参和query传参的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>区别：
+1、params通过name传参，query通过path和name都可以传参
+2、query相当于get请求，参数会在地址栏显示，而params相当于post请求，参数不会再地址栏显示。
+3、用params传参，F5强制刷新参数会被清空；用query，由于参数是用路径传参的，所以F5强制刷新也不会被清空。
+4、使用这两种方式传参的时候都可通过路由的name进行传参，所以在配置路由的时候需要加个name属性
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="_5、如何配置路由"><a href="#_5、如何配置路由" class="header-anchor">#</a> 5、如何配置路由</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>在我们的项目搭建完成时候会有一个router的文件夹里边有一个index.js文件 
+第一步：引入需要配置路由的组件
+第二步：在index.js中有routes数组 在数组里边有对象 每一个对象就是每一条路由（在routes数组添加一个对象）
+第三步：在对象内添加path和component。path的值为组件对应的路径，component的值为路径对应的组件。
+
+当然我们也可根据实际情况进行路由属性的添加及使用。
+	比如： name、meta（迈特）、beforeEnter（恩特）、redirect、params、query
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>1.安装路由   npm/cnpm i vue-router --save 
+2.新建router文件夹-&gt;index.js
+3.在index.js文件中加
+   import Vue from 'vue'
+   import Router from 'vue-router' 
+   Vue.use(Router)
+   抛出实例  export default new Router({
+               routes: [
+                      {}
+               ]
+            })
+4.在main.js中引入router import router from './router',并在实例new Vue中加上router这一属性
+5.在APP.vue中加路由的出口 &lt;router-view/&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>在vue单页面应用搭建路由的方法是：
+	1、安装vue-router
+	2、在项目中的src文件夹内建一个router文件夹，并且在router文件夹下建立一个index.js文件。
+	3、在index文件内引入vue、vue-router、进行使用vue-router（vue Use（router））。
+	4、定义路由（{routes[{path：路径，component：路径对应的组件}]}）
+	5、创建router实例，并将定义的路由传入实例。
+	6、使用exprot default进行导出router实例。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_6、router和route的区别"><a href="#_6、router和route的区别" class="header-anchor">#</a> 6、router和route的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1.router是VueRouter的一个对象，通过Vue.use(VueRouter)和VueRouter构造函数得到一个router的实例对象，这个对象中是一个全局的对象，他包含了所有的路由包含了许多关键的对象和属性。
+路由实例的方法有：
+Push()  go()  replace()等方法   
+2.route是一个跳转的路由对象，每条路由都会有一个route对象，是一个局部的对象，有name,path,params,query matched，component 等属性
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="_7、路由钩子的理解"><a href="#_7、路由钩子的理解" class="header-anchor">#</a> 7、路由钩子的理解</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>导航钩子 就是路由的生命周期
+分为：全局路由守卫、组件内守卫、路由独享守卫
+全局的钩子函数
+	beforeEach()  	在路由切换开始时调用
+	afterEach()		在路由切换离开时调用
+	
+路由独享守卫
+	beforeEnter
+组件的钩子函数
+	beforeRouteEnter
+	beforeRouteUpdate
+	beforeRouteLeave
+
+ 项目中一般使用全局路由守卫的中beforeEach，进行登录拦截。
+    
+执行顺序是先是组件内==== 单个路由 === 全局
+参数：
+to:即将进入的目标对象
+from:当前导航要离开的导航对象
+next:是一个函数，调用resolve 执行下一步
+
+{
+	path:&quot;/buy&quot;,
+	component:Buy,
+	meta:{
+        auth:true
+	}
+}
+有此页面必须登录才能进去
+router.beforeEach((to,from,next)=&gt;{
+    if(to.meta.auth){
+        if(token){
+            next()
+        }else{
+            next({
+                path:'login'
+            })
+        }
+    }
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br></div></div><h4 id="_8、页面之间传值"><a href="#_8、页面之间传值" class="header-anchor">#</a> 8、页面之间传值</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>父传子：
+	父组件发送的形式是用v-bind绑定值到子组件身上。然后子组件用属性props接收。
+子传父：
+	子组件使用$emit(事件名,需要发送的值)触发自定义事件，父组件使用v-on监听（@事件名=获取值的方法）。
+兄弟：
+	A）、两个都要引入公共实例-&gt;bus。首先是发送者，this.$emit(名字，值)。然后是接受者,this.$on(&quot;传过来的那个名字&quot;，函数（值）)，这里要注意的是接受者的这个监听事件应该是放在钩子mounted事件内。同时注意this指向问题。（可用封装方法）
+	B）、使用vuex和localStroage进行传值
+	C）、借助父组件，让两个兄弟组件可以联动，子组件A将值传递给父组件，父组件再将值传递给子组件B
+隔代组件：
+	使用本地存储、事件车、vuex都可以实现。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>1.父传子
+   父：在子组件标签上用v-bind绑定需要传的数据,绑定的属性随意定义的，值是需要传的数据
+             &lt;my :msg = &quot;msg&quot;&gt;&lt;/my&gt;
+   子：在组件上用props来接收 props:['msg'],就可以在页面中使用传过来的数据
+2.子传父   
+   子：this.$emit('send',this.message)
+			send是自定义的事件名，可以随意起名
+   父：在子组件的标签上监听自定义send事件，触发父组件的save方法
+			&lt;my @send='save'&gt;&lt;/my&gt;	
+3.兄弟组件传值
+   a.在main.js中创建一个公共实例：Vue.prototype.$bus = new Vue();
+   b.有a,b两个组件，现在要数据从a-&gt;b:	
+		(1)a组件通过$emit方法自定义事件	
+			this.$bus.$emit('sendclass',this.message)
+		(2)b组件通过$on监听a组件上的自定义事件			
+			this.$bus.$on('sendclass',function(res){console.log(res)})变量res就是获取数据
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h4 id="_9、vue指令有那些-v-if和v-show的区别"><a href="#_9、vue指令有那些-v-if和v-show的区别" class="header-anchor">#</a> 9、vue指令有那些  v-if和v-show的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>Vue的指令有：
+	v-show（显示隐藏）、v-bind（绑定属性 简写：）、v-if（条件判断）、v-on（事件监听简写@）、
+	v-text（渲染文本）、v-for（循环）、v-html（渲染文本和标签）、v-model（表单控件，双向绑定）、
+	v-once（只渲染一次）、v-slot（插槽简写#）、v-cloak（防闪烁）、v-pre（预编译）
+
+v-if和v-show都可以控制元素的显示与隐藏。
+区别：
+	v-if是通过判断条件重建与销毁DOM元素来控制元素的显示隐藏。
+	v-show是通过CSS的display来控制元素的显示与隐藏。
+	v-if频繁切换消耗高，   v-show初始渲染消耗高。
+使用场景：
+	所以需要频繁切换状态时，使用 v-show
+	要加快初始化时的渲染速度，使用 v-if
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h4 id="_10、watch和computed的区别"><a href="#_10、watch和computed的区别" class="header-anchor">#</a> 10、watch和computed的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>区别：
+ 1、computed调用时不需要加括号，watch不需要调用。
+ 2、computed有缓存，watch没有缓存。
+ 3、当属性没有发生改变时computed会从缓存中读取值，watch当属性发生改变时会接收到两个值，一个新值、一个旧值。
+ 4、computed中的函数名不可随便命名(不能和data,methods中的冲突)，watch中的函数名必须是data中的属性名。
+ 5、computed必须有返回值。如果watch需要监听对象，必须设置深度监听。（deep = true）
+
+应用场景：
+	a）多个数据变化影响一个数据的变化，使用computed。
+	b）一个数据变化影响多个数据变化，使用watch。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h4 id="_11、vue自定义指令"><a href="#_11、vue自定义指令" class="header-anchor">#</a> 11、vue自定义指令</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、可以使用Vue.directive( dir_name , {} ) 来定义全局自定义指令
+2、也可以使用 directives{ dir_name : {} } 来定义局部自定义指令
+钩子函数 : 
+    bind 
+        只调用一次, 当指令第一次绑定在元素上时.
+        用来做一次性初始化操作.
+    inserted
+        当绑定元素已插入到父节点时调用.
+        也就是说 必定存在父节点.
+        但是 它 及它的父节点 未必存在文档中.
+    update
+        在包含该组件的VNode更新后调用该函数.
+        可能在其子级更新前调用.
+        指令的值可能已更改,可能未更改.最好通过判断新旧值来过滤掉不必要的操作.
+    componentUpdated
+         组件与子组件更新时调用。
+    unbind
+      指令与元素解绑时调用，只执行一次。
+基本语法
+全局定义指令
+ Vue.directive('xxx-xxx' , {
+            bind:function (){},
+            inserted:function (){},
+            Update:function (){},
+            componentUpdated:function (){},
+            unbind:function (){}
+  })
+  注册 （指令函数）
+  Vue.directive('xxx-xxx',function(){
+  		// 这里将会被'bind' 和 'update' 调用
+  })
+
+局部定义指令
+directives:{   //自定义私有指令
+             'fontweight':{
+                  bind(el,binding){
+                     el.style.fontWeight = binding.value;
+                  },
+                    },
+              'color-swatch'(el, binding) {   //简写
+                    el.style.backgroundColor = binding.value;
+               }
+            }
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br></div></div><h4 id="_12、说说你对vuex的理解"><a href="#_12、说说你对vuex的理解" class="header-anchor">#</a> 12、说说你对vuex的理解</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>vuex的概念：Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。
+vuex的应用场景：组件数据传递不太方便的时候，可以使用vuex,比如购物车、用户信息等
+
+五个状态分别是：State、Getters、Mutations、Actions、Modules。
+
+state：存储状态（数据），在根实例中注册了store 后，用 this.$store.state 来访问store里面的状态，			存放数据方式为响应式。 
+getters：可以认为是 store 的计算属性，它的返回值会根据它的依赖被缓存起来，且只有当它的依赖值发生了改			变才会被重新计算。
+mutations：更改 Vuex 的 store 中的状态的唯一方法是提交 mutations。
+actions：包含任意异步操作，通过提交 mutations 间接改变状态。
+modules：将store分割成模块，每个模块都具有state、mutation、action、getter、甚至是嵌套子模块
+
+简单来说：state 存储状态
+	    getters 获取state的状态
+	    mutations: 函数来改变我们的状态
+	    actions: 提交给mutations，让mutation来改变我们的状态（可以做异步）
+	    modules：将store分割成模块，每个模块都具有state、mutation、action、getter、甚至是嵌套             子模块。
+	        
+   vuex的缺点：页面刷新后数据丢失
+   解决方法：vuex结合本地存储实现组件之前状态的共享或者使用一些插件例如vuex-persist
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h4 id="_13、说说你对生命周期的理解"><a href="#_13、说说你对生命周期的理解" class="header-anchor">#</a> 13、说说你对生命周期的理解</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>生命周期概念： 一个vue实例从创建到销毁的过程。
+或者生命周期概念：Vue 实例从创建到销毁的过程，就是生命周期。也就是从开始创建、初始化数据、编译模板、挂载Dom→渲染、更新→渲染、卸载等一系列过程，我们称这是 Vue 的生命周期。
+
+生命周期钩子函数：在这个生命周期过程中，vue为我们提供了8个常用钩子函数。
+
+生命周期：
+	总共分为8个阶段，创建前/后，载入前/后，更新前/后，销毁前/后。
+beforeCreate：
+	阶段，vue实例的挂载元素$el和数据对象data都为undefined，还未初始化。
+created：
+	阶段，已经有了数据对象data，但$el还没有。
+beforeMount：
+	阶段，vue实例的$el和数据对象data都已经初始化，但还是虚拟的dom节点。
+mounted：
+	阶段，模板已经编译好，虚拟dom渲染成真正的dom标签，数据已经渲染到页面，Vue实例已经创建完毕。
+beforeUpdate：
+	阶段当数据依赖改变时，对象data中的数据已经更改（虚拟dom已经重新渲染），但是还未开始渲染真正dom，页面中的值还是原来的。
+updated：
+	阶段data中的数据更新完毕，页面已经被重新渲染。
+beforeDestroy：
+	阶段实例还是可用的一般在这里做一些善后工作。（例如清除定时器、清除非指令绑定的事件等等。）。
+destroyed：
+	阶段Vue实例被销毁，观察者、子组件、事件监听被清除（页面数据不会消失，只是响应式无效了）。
+	
+一般会在created和mounted阶段做网络请求和第三方插件的初始化。
+在destroyed阶段进行清除定时器和一些事件的解绑
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><h4 id="_14、跨域问题的解决方案"><a href="#_14、跨域问题的解决方案" class="header-anchor">#</a> 14、跨域问题的解决方案</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>跨域分为多种情况：
+	有前端跨域、后端跨域、线上跨域、线下跨域。
+解决办法也有多种：
+	1、使用jsonp(只能用于get请求)。
+	2、使用webpack配置proxy反向代理。
+	3、使用nginx设置反向代理。
+	4、后端设置请求头。
+		A） header('Access-Control-Allow-Origin:*');//允许所有来源访问 
+		B） header('Access-Control-Allow-Method:POST,GET');//允许访问的方式
+线上跨域：
+	后端进行处理。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_15、key的作用"><a href="#_15、key的作用" class="header-anchor">#</a> 15、key的作用</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>key的作用是为了在diff算法执行时更快的找到对应的节点，提高diff速度，key具有唯一性。
+让每一个item有一个唯一的识别身份，主要是为了vue精准的追踪到每一个元素，更高效的更新虚拟DOM。
+
+专业回答：
+	1.key的作用主要是为了高效的更新虚拟DOM,其原理是vue在patch过程中通过key可以精确判断两个节点是否是同一个，从而避免频繁更新不同元素，使得整个patch过程更加高效，减少DOM操作量，提高性能。
+	2.另外，若不设置key还可能在列表更新时引发一些隐蔽的bug
+	3.vue中在使用相同标签名元素的过渡切换时，也会使用到key属性，其目的也是为让vue可以区分他们，否则vue只会替换其内部属性而不会触发过渡效果。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_16、nexttick的作用"><a href="#_16、nexttick的作用" class="header-anchor">#</a> 16、nextTick的作用</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>当数据更新了，在dom中渲染后，自动执行该函数
+1、Vue生命周期的created()钩子函数进行的DOM操作要放在Vue.nextTick()的回调函数中。
+
+2、当项目中你想在改变DOM元素的数据后基于新的dom做点什么，对新DOM一系列的js操作都需要放进Vue.nextTick()的回调函数中；
+	通俗的理解是：更改数据后想立即使用js操作新的视图的时候需要使用nextTick。
+	
+3、在使用某个第三方插件时 ，希望在vue生成的某些dom动态发生变化时重新应用该插件，也会用到该方法，这时候就需要在 $nextTick 的回调函数中执行重新应用插件的方法。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_17、对keep-alive的了解"><a href="#_17、对keep-alive的了解" class="header-anchor">#</a> 17、对Keep-Alive的了解</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>vue的缓存机制是keep-alive，keep-alive是vue的一个内置组件，它提供了include与exclude两个属性,允许组件有条件的缓存.主要用于保留组件状态，避免重新渲染。
+
+比如：
+	有一个列表和一个详情，那么用户就会经常执行打开详情=&gt;返回列表=&gt;打开详情…这样的话列表和详情都是一个频率很高的页面，那么就可以对列表组件使用&lt;keep-alive&gt;&lt;/keep-alive&gt;进行缓存，这样用户每次返回列表的时候，都能从缓存中快速渲染，而不是重新渲染，这样就会减轻服务器压力，提高性能。
+
+实现原理:
+	其实就是在created的时候 将需要缓存的vnode（虚拟）节点放到cache中,在render时根据name在进行取出。
+使用方法:
+	一般配合路由使用的，meta给自己的路由添加属性的.
+
+meta:{
+	keepAlive:true
+}	
+其它的设置false
+
+&lt;keep-alive&gt;
+	&lt;router-view v-if=&quot;$router.meta.keepAlive&quot;/&gt;
+&lt;/keep-alive&gt;
+
+&lt;keep-alive exclude=&quot;Detail&quot;&gt;
+	&lt;router-view/&gt;
+&lt;/keep-alive&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><h4 id="_18、vue和react的区别"><a href="#_18、vue和react的区别" class="header-anchor">#</a> 18、vue和react的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>Vue和React的共同点
+	01. react采用特殊的JSX语法，Vue.js在组件开发中也推崇编写.vue特殊文件格式，对文件内容都有一些约定
+	02. 两者都需要编译后使用
+	03. 中心思想相同：一切都是组件，组件实例之间可以嵌套
+	04. 都提供合理的钩子函数，可以让开发者定制化地去处理需求
+	05. 都不内置列数AJAX，Route等功能的核心包，而是以插件的方式加载
+
+Vue和React的不同点
+	01. Vue性能更好、Vue性能上更有优势，因为 Vue 的 Virtual DOM 实现相对更为轻量一些，整体大小比react.js更小更轻便
+	02. react.JS 采用JSX语法，对绝大部分工程师入手比较困难，需要要大量的时间去学习适应这种新语法的形式，vue采用DOM模板的方法，易看易用
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h4 id="_19、虚拟dom"><a href="#_19、虚拟dom" class="header-anchor">#</a> 19、虚拟DOM</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>虚拟DOM是什么:用JS对象的形式，表示DOM和DOM之间的嵌套关系.Vue在这个Virtual DOM 上实现了一个 diff 算法，当要重新渲染组件的时候，会通过 diff 寻找到要变更的 DOM 节点，再把这个修改更新到浏览器实际的 DOM 节点上，所以性能会比原生 DOM 快很多。
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>虚拟DOM:就是一个普通的 JavaScript 对象,就是以js对象的形式添加DOM元素.本质上是优化了diff算法.
+采用了新旧DOM对比,获取差异的DOM,一次更新到你真实的DOM上.
+
+虚拟DOM本身也有自己的缺陷,它更适合批量修改dom,尽量不要跨层级的修改DOM,一般用于兄弟之间的修改.设置key,可以最大的利用节点.
+
+vue的虚拟DOM优化了diff算法.使用了旧DOM和新DOM的对比,把有差异的DOM更新到新的DOM上边
+template就是一个虚拟DOM,在没有追加真实DOM之前就是一个虚拟DOM.
+
+虚拟DOM并不一定比真实渲染要快.
+
+如果没有key值,页面相同的标签会被复用,如果有key值,就不会被复用.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_20、diff算法"><a href="#_20、diff算法" class="header-anchor">#</a> 20、diff算法</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1.diff 算法是虚拟dom生成的必然产物，通过新旧dom比较，将变化的地方更新到真实的dom上
+2.当页面的数据发上变化的时候，Diff算法只会比较同一层级的节点
+3.在diff算法时key的作用很重要，就是为了高效的更新虚拟DOM
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>没加key的diff算法问题（虚拟DOM）
+1、如果节点类型不同，直接干掉前面所有不同的节点，再创建并插入新的节点，不会再比较这个节点以后的子节点了。
+2、如果节点类型相同，则会重新设置节点的属性，从而实现节点的更新。
+
+加key的diff算法问题（虚拟DOM）
+	要使用key来给每一个节点做一个唯一标识， diff算法就可以正确的识别此节点，找到正确的位置直接插入新的节点。
+	
+专业的回答：
+	1.diff算法是虚拟DOM技术的必然产物，通过新旧虚拟DOM作对比(即diff),将变化的地方更新在真实DOM上，另外，也需要diff高效的执行对比过程，从而降低时间复杂度O(n).
+	2.vue2.x为了降低watcher（我吃）力度，每个组件有一个watcher与之对应，只有引入diff才能精确找到发生变化的地方
+	3.vue中diff执行的时刻是组件实例执行更新函数时，它会比对上一次渲染结果oldVnode和新的渲染结果newVnode,此过程称为patch.
+	4.diff过程整体遵循深度优先，同层比较的策略;两个节点之间比较会根据它们是否拥有子节点或者文本节点做不同操作，比较两组子节点是算法的重点，首先假设头尾节点可能相同4次对比尝试，如果没有找到相同节点才按照通用方式遍历查找，查找结束再按情况处理剩下的节点;借助key通常可以非常精确找到相同节点，因此整个patch过程非常高效。
+	
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h4 id="_21、项目优化"><a href="#_21、项目优化" class="header-anchor">#</a> 21、项目优化</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>v-for 遍历避免同时使用 v-if
+keep-alive缓存页面
+细分vue.js组件降低耦合性
+使用better-click防止iphone点击延迟
+减少网络请求
+
+图片懒加载
+路由懒加载
+第三方插件按需引入
+使用CND资源
+使用骨架屏提高用户体验
+开启gzip压缩
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_22、restful-api"><a href="#_22、restful-api" class="header-anchor">#</a> 22、restful API</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>Rest是web服务的一种架构风格，一种设计风格，是一种思想；同时Rest不是针对某一种编程语言的。
+restful：遵守了rest风格的web服务，也就是webAPI接口规范，是后台人员编写。
+
+非Rest设计，以往我们都会这么写：
+	http://localhost:8080/admin/getUser （查询用户）
+	http://localhost:8080/admin/addUser （新增用户）
+	http://localhost:8080/admin/updateUser （更新用户）
+	http://localhost:8080/admin/deleteUser （删除用户）
+
+Rest架构：
+GET 	http://localhost:8080/admin/user （查询用户）
+POST 	http://localhost:8080/admin/user （新增用户）
+PUT 	http://localhost:8080/admin/user （更新用户）
+DELETE 	http://localhost:8080/admin/user （删除用户）
+
+为什么需要Restful
+	URL具有很强可读性的，具有自描述性
+	规范化请求过程和返回结果
+	资源描述与视图的松耦合
+	可提供OpenAPI，便于第三方系统集成，提高互操作性
+	提供无状态的服务接口，降低复杂度，可提高应用的水平扩展性
+
+method请求方式
+	get
+	post
+	put
+	delete
+	PATCH(一般不用)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><h4 id="_23、路由组件有那些及如何使选中路由高亮显示"><a href="#_23、路由组件有那些及如何使选中路由高亮显示" class="header-anchor">#</a> <strong>23、路由组件有那些及如何使选中路由高亮显示</strong></h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>vue-router的组件有：router-link、router-view。
+
+如何使选中路由高亮显示
+一、设置选中(高亮)
+router-link 作为 vue 中的路由跳转标签，它内置有一个选中的状态，当处于当前路由时，会给 router-link 加上两个类名：router-link-active 和 router-link-exact-active。
+
+router-link-active：设置链接激活时使用的 CSS 类名
+router-link-exact-active：配置当链接被精确匹配的时候应该激活的 class
+
+.nav li &gt; a.router-link-active{ font-weight: bold;}
+.nav li &gt; a.router-link-active span::before{ content: ''; width: 100%; height: 1px; display: block; }
+
+二、去掉默认类名 / 修改默认类名
+router-link-active:全局配置 的默认“激活 class 类名”
+linkExactActiveClass：全局配置 精确激活的默认的 class
+
+ 想要修改或者去掉默认类名只需在路由文件里面配置即可，例如：
+ export default new Router({
+  linkActiveClass: 'active',
+  linkExactActiveClass: 'active',
+   routes: [
+    .... //这里是路由配置
+   ]
+ });
+见上面代码，已经把 linkActiveClass 和 linkExactActiveClass 都改成了&quot;active&quot;， 如果此处设置为空，则页面中就不会显示默认类名
+
+第二种
+1.首先我们修改下main.js里面的路由配置文件.加上首页路由组件配置.红色圈的地方意思是,默认进来显示的路由路径,还有一个就是直接配置默认的路由路径,其实指向的都是同一个组件.
+2.第二步,将导航的路由改动下.这里要注意的是,第一个router-link to不在是直接指向&quot;/&quot;了,而是&quot;/home&quot;.然后我们在第一个路由内容的DIV上加一个动态class.用来判断当前的路由路径.写一个三元表达式.$route是一个路由对象,所有的路由都被存在这个对象当中.我们只需要进行判断当前路由是否指向home这个组件.如果是的话加上一个router-link-active如果不是的话就为空class.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><h4 id="_24、vue中的两个内置组件"><a href="#_24、vue中的两个内置组件" class="header-anchor">#</a> <strong>24、vue中的两个内置组件</strong></h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>vue中的两个内置组件：transition、 keep-alive
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="_25、你都封装过什么组件"><a href="#_25、你都封装过什么组件" class="header-anchor">#</a> <strong>25、你都封装过什么组件</strong></h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="二、js"><a href="#二、js" class="header-anchor">#</a> 二、JS</h2> <h4 id="_1、代码规范"><a href="#_1、代码规范" class="header-anchor">#</a> 1、代码规范</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>参考网站：https://www.runoob.com/js/js-conventions.html（菜鸟教程）
+        https://github.com/fex-team/styleguide/blob/master/javascript.md（GitHub）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_2、this的理解"><a href="#_2、this的理解" class="header-anchor">#</a> 2、this的理解</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>this代表的是当前对象，由于执行环境不同，所代表的对象也不同。
+比如：
+	1、在DOM0事件中this指向调用这个函数的对象。                      
+	
+	2、在构造函数中this指向创建的实例
+	3、在箭头函数中this指向当前函数外离他最近的对象
+	4、当函数为全局函数时this指向 window
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_3、作用域及作用链"><a href="#_3、作用域及作用链" class="header-anchor">#</a> 3、作用域及作用链</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>作用域: 就是变量和函数的可访问范围。
+
+ES5中有全局作用域和局部作用域。
+ES6中新增了块级作用域，一个大括号就是一个作用域。
+
+作用域链: 通俗地讲，当声明一个函数时，局部作用域一级一级向上包起来，就是作用域链。
+	1.当执行函数时，总是先从函数内部找寻局部变量。如果内部找不到（函数的局部作用域没有），则会向创建函数的作用域（声明函数的作用域）寻找，依次向上。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_4、数组去重"><a href="#_4、数组去重" class="header-anchor">#</a> 4、数组去重</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、首先声明一个新数组，并遍历原数组使用indexOf方法进行判断新数组中是否有原数组中的元素，如果没有，就往新数组里添加，如果有则不添加
+2、使用new  Set 进行去重，然后再转为数组
+	var arr1 = Array.from(new Set(arr))
+3、filter  +  indexOf	
+    var arr1 = arr.filter(( item,index) = {
+    return  arr.indexOf(item) === index
+    })
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_5、深拷贝和浅拷贝"><a href="#_5、深拷贝和浅拷贝" class="header-anchor">#</a> 5、深拷贝和浅拷贝</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>深拷贝
+1、$.extend(),设置为true是深拷贝
+var x = {
+    a: 1,
+    b: { f: { g: 1 } },
+    c: [ 1, 2, 3 ]
+};
+
+var y = $.extend({}, x),          //shallow copy
+    z = $.extend(true, {}, x);    //deep copy
+
+y.b.f === x.b.f       // true
+z.b.f === x.b.f       // false
+
+2、原生实现
+function deepCopy(p,c){
+    var i;
+    c = c||{};
+    for(i in p){
+        if(p.hasOwnProperty(i)){
+            if(typeof(p[i])===&quot;object&quot;){
+                c[i] = Array.isArray(p[i])?[]:{};
+                deepCopy(p[i],c[i]);
+            }else{
+                c[i] = p[i];
+           }
+        }
+    }
+    return c;
+}
+
+3、使用 JSON 全局对象的 parse 和 stringify 方法来实现深复制
+    function jsonClone(obj) {
+        return JSON.parse(JSON.stringify(obj));
+    }
+    var clone = jsonClone({ a:1 });
+ 浅拷贝
+ 1、
+ var obj = { a:1, arr: [2,3] };
+ var shallowObj = shallowCopy(obj);
+
+function shallowCopy(src) {
+  var dst = {};
+  for (var prop in src) {
+    if (src.hasOwnProperty(prop)) {
+      dst[prop] = src[prop];
+    }
+  }
+  return dst;
+}
+
+2、Object.assign(...)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>深拷贝和浅拷贝是对引用数据类型来说的。
+对于如何区分深拷贝与浅拷贝，简单来说，就是假设B复制了A，当修改A时，看B是否会发生变化，如果B也跟着变了，说明这是浅拷贝，如果B没变，那就是深拷贝。
+数组的深浅拷贝可以使用：
+	1、slice、concat实现对数组的浅拷贝（注：当数组里面的值是基本数据类型属于深拷贝，比如string、number、boolean，当数组里面值为引用类型时属于浅拷贝，比如object、array）
+	2、使用扩展运算符实现深拷贝
+对象的深浅拷贝：
+	1、使用JSON对象的JSON.stringify和JSON.parse实现深拷贝。
+	（例：var obj1 = {a:1,b:2} var obj2 = JSON.parse（JSON.stringify(obj1)）
+	2、使用object.assign实现浅拷贝。
+	（例：var obj1 = {a:1,b:2} var obj2 = object.assign（{}，obj1）//将obj1赋值给一个空对象然后		再赋值给obj2
+	3、通过jQuery的extend方法实现深拷贝
+	  var newArray = $.extend(true,[ ],array); // true为深拷贝，false为浅拷贝
+
+浅拷贝：
+	- concat
+	- slice
+	- Object.assign
+	
+	
+深拷贝
+	- JSON.parse(JSON.stringify(source)) ---&gt; 不能处理函数数据
+	- 三点运算符
+	- 自己封装实现深度克隆
+        function checkoutType(target) {
+              return Object.prototype.toString.call(target).slice(8, -1)
+            }
+            function clone(target) {
+              let result, targetType = checkoutType(target);
+              // 检测克隆目标的数据类型
+              if(targetType === 'Array'){
+                result = [];
+              }else if(targetType === 'Object'){
+                result = {};
+              }else {
+                return target;
+              }
+              // 思考： 选用哪种方式遍历？？？  需求； 对象的key，数组的index ，结论： for in
+              for(let i in target){
+                // 获取个体元素
+                // result[i] = target[i] 如果原数据中有引用数据类型，就是浅拷贝
+                if(checkoutType(target[i]) === 'Array' || 'Object'){
+                  result[i] = clone(target[i])
+                }else {
+                  result[i] = target[i]
+                }
+              }
+              return result;
+            }
+        - 使用jq中的$.extend()方法
+      
+     var arr = [{a:1},{b:2}]; 进行深拷贝
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br></div></div><h4 id="_6、es6新特性"><a href="#_6、es6新特性" class="header-anchor">#</a> 6、ES6新特性</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>    1.	模块化
+	2.	箭头函数
+	3.	函数参数默认值
+	4.	模板字符串
+	5.	解构赋值
+	6.	对象属性简写
+	7.	Promise
+	8.	Let与Const
+	9.	Class 类
+	10.	扩展运算符
+	11、新增数组、字符串、对象的方法
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_7、箭头函数和普通函数的区别"><a href="#_7、箭头函数和普通函数的区别" class="header-anchor">#</a> 7、箭头函数和普通函数的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>区别：
+	1、语法不同。
+	2、箭头函数是匿名函数，不能作为构造函数，不能使用new。
+	3、箭头函数不能绑定arguments，取而代之用rest参数...解决。
+	4、箭头函数没有原型属性。
+	5、箭头函数不绑定this，会捕获其所在的上下文的this值，作为自己的this值。
+	6、箭头函数不能当做Generator函数,不能使用yield关键字.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>区别：	
+   1.普通函数有声明提前，箭头函数没有
+   2.普通函数有自己的this，箭头函数没有自己的this，继承父级的this
+   3.普通函数有arguments属性，但是箭头函数没有
+   4.普通函数可以作为构造函数，箭头不能作为构造函数
+   5.普通函数可以作为函数生成器，箭头不能
+   6.普通函数没有隐式返回值，箭头函数有 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_8、let-const-var的区别"><a href="#_8、let-const-var的区别" class="header-anchor">#</a> 8、let const var的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>区别：
+  1、var声明的变量会挂载到window上，而let和const声明的变量不会。
+  2、var声明变量存在变量声明提升，let和const不存在变量声明提升。
+  3、let和const声明的变量有块作用域。
+  4、同一作用域下let和const不能声明同名变量，而var可以。
+  5、Let和const声明的变量存在暂时性死区。
+
+const：一旦声明必须赋值,不能使用null占位。而且声明后不能再修改，如果声明的是复合类型数据，可以修改其属性。 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>区别：
+  1.var和let都声明的是变量，值可以更改；const声明的是常量，一旦声明值不可以更改，而且必须赋值
+  2.var同一个变量可以多次声明，let和const不能
+  3.var有变量提升，let和const没有
+  4.var没有块级作用域，let和const有块级作用域
+  5.var声明变量会挂载到window这个对象上，let和const不会
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="_9、说说对promise的理解"><a href="#_9、说说对promise的理解" class="header-anchor">#</a> 9、说说对promise的理解</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>Promise是异步编程的一种解决方案，主要解决由于异步请求的多层嵌套造成的回调地狱问题。
+Promise有三个状态和两个过程
+	三个状态：pending（初始状态）、fulfilled（成功状态）、rejected（失败状态）；
+	
+	两个过程：pending==&gt;fulfilled的过程和pending==&gt;rejected的过程。
+	缺点：promise的状态一旦改变则不会再变，是不可逆的
+	
+	方法：Promise是一个构造函数，自身有all、reject、resolve这几个方法，原型上有then和catch方法	
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>  1.Promise是构造函数，使用的时候需要new一下
+  2.解决异步回调地狱问题
+  3.有三个状态：进行中，成功，失败（pending（进行中）、fulfilled（已成功）和rejected（已失败））
+  4.参数是一个函数，函数有两个参数，一个成功执行，一个失败执行
+  5.经常用到有两个方法，一个成功回调then，失败回调catch
+  6.等待多个promise的成功Promise.all()，失败.catch()	 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="_10、http请求"><a href="#_10、http请求" class="header-anchor">#</a> 10、http请求</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>什么是http请求：就是指从客户端到服务器端的请求消息。
+http包含三部分：
+	1、请求头
+	2、响应头
+	3、状态码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="_11、http请求的方式"><a href="#_11、http请求的方式" class="header-anchor">#</a> 11、http请求的方式</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>HTTP1.0 定义了三种请求方法： GET, POST 和 HEAD方法。
+HTTP1.1 新增了六种请求方法：OPTIONS、PUT、PATCH、DELETE、TRACE 和 CONNECT 方法。
+
+1.GET	请求指定的页面信息，并返回实体主体。
+2.HEAD	类似于 GET 请求，只不过返回的响应中没有具体的内容，用于获取报头
+3.POST	向指定资源提交数据进行处理请求（例如提交表单或者上传文件）。数据被包含在请求体中。POST 请求可能会导致新的资源的建立和/或已有资源的修改。
+4.PUT	从客户端向服务器传送的数据取代指定的文档的内容。
+5.DELETE	请求服务器删除指定的页面。
+6.CONNECT	HTTP/1.1 协议中预留给能够将连接改为管道方式的代理服务器。
+7.OPTIONS	允许客户端查看服务器的性能。
+8.TRACE	回响服务器收到的请求，主要用于测试或诊断。
+9.PATCH	是对 PUT 方法的补充，用来对已知资源进行局部更新 。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_12、get请求与post请求的区别"><a href="#_12、get请求与post请求的区别" class="header-anchor">#</a> 12、get请求与post请求的区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>get:一般用于信息获取，使用url传递参数，对所发送信息的数量也有限制，一般在2000个字符，有的浏览器是8000个字符
+
+post：一般用于修改服务器上的资源，对所发送的信息没有限制（post通过请求体将数据传向后台）
+	在以下情况中，使用post请求
+	1.无法使用缓存文件（更新服务器上的文件或数据库）
+	2.向服务器发送大量数据（post没有数据限制）
+	3.发送包含未知字符的用户输入时，post比get更稳定也更可靠
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_13、http请求的状态码"><a href="#_13、http请求的状态码" class="header-anchor">#</a> 13、http请求的状态码</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>http状态码分为五类：
+	1开头的代表信息状态码
+	2开头的代表成功状态码
+	3开头的代表重定向状态码
+	4开头的代表客户端错误状态码
+	5开头代表服务端错误状态码
+常用状态码有：
+	200：请求成功
+	301：被请求的资源已经永久移动到新位置
+	304：所请求的资源未修改（缓存）。
+	404：服务器无法根据客户端的请求找到资源
+	401：身份验证
+	500：服务器内部错误，无法完成请求
+	503：由于超载或系统维护，服务器暂时无法处理客户端请求
+301与303的区别：
+	301转向(或叫301重定向，301跳转)是当用户或搜索引擎向网站服务器发出浏览请求时，服务器返回的HTTP数据流	    中头信息(header)中的状态码的一种，表示本网页永久性转移到另一个地址。
+	
+	303状态码：对于POST请求，它表示请求已经被处理，客户端可以接着使用GET方法去请求Location里的URI。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h4 id="_14、网络请求的方式"><a href="#_14、网络请求的方式" class="header-anchor">#</a> 14、网络请求的方式</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>http网络请求有八种：GET  POST HEAD PUT  DELETE CONNECT TRACE  OPTIONS
+（同11题）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_15、同源策略"><a href="#_15、同源策略" class="header-anchor">#</a> 15、同源策略</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>同源策略是一种约定，它是浏览器最核心也是最基本的安全功能。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>补充：
+同源策略，它是由Netscape提出的一个著名的安全策略。
+当一个浏览器的两个tab页中分别打开来 百度和谷歌的页面
+当浏览器的百度tab页执行一个脚本的时候会检查这个脚本是属于哪个页面的，
+即检查是否同源，只有和百度同源的脚本才会被执行。 [1] 
+如果非同源，那么在请求数据时，浏览器会在控制台中报一个异常，提示拒绝访问。
+同源策略是浏览器的行为，是为了保护本地数据不被JavaScript代码获取回来的数据污染，因此拦截的是客户端发出的请求回来的数据接收，即请求发送了，服务器响应了，但是无法被浏览器接收。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_16、同源"><a href="#_16、同源" class="header-anchor">#</a> 16、同源</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>所谓的同源就是同协议、同域名、同端口则为同源，即便有两个不同的域名指向同一个IP地址，也非同源。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="_17、跨域"><a href="#_17、跨域" class="header-anchor">#</a> 17、跨域</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>为什么会出现跨域问题：出于浏览器的同源策略限制。
+
+什么是跨域：当一个请求url的协议、域名、端口三者之间任意一个与当前页面url不同即为跨域
+
+引发跨域的几种情况：
+	1、不同域名引起的跨域：（www.a.com和www.b.com）
+	2、主域名和子域名不同引起的跨域（www.a.com和sss.a.com）
+	3、不同协议引起的跨域（http://www.a.com和https://www.a.com）
+	4、IP和域名引起的跨域（123.23.23.12和www.a.com）
+	
+	一句话描述：就是不同源的情况需要跨域。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_18、跨域问题的解决方案"><a href="#_18、跨域问题的解决方案" class="header-anchor">#</a> 18、跨域问题的解决方案</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>前端解决跨域的方法：
+			 webpack proxy  （这种方式打包就没有了）
+			 webpack plugin
+			 jsonp
+			 nginx 反向代理 
+后端设置：cors
+
+推荐的方式：后端解决，后端不解决就得前端解决了。
+原来没有前后端分离（所以没有跨域问题）
+现在是前后端分离（有了跨域问题）
+	小程序，H5，android 都调一个后端
+
+导致跨域的原因：前后端分离
+
+线上跨域：
+	1)jsonp 
+	2) 后台在请求头里添加  Allow-access-origin:'*'
+
+线下跨域：vue项目中在webpack-dev-server中配置使用 proxyTable反向代理(正向代理，反向代理)
+	同源策略：是浏览器的安全策略。
+	同源：协议名、域名、端口号必须完全一致。
+	
+什么情况会跨域：
+	违背了同源策略就会产生跨域
+解决跨域方法
+	jsonp:前后端都需要改代码，jsonp不支持post请求，只支持get请求。
+	cors 
+	服务器代理
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><h4 id="_19、本地存储都有什么及区别"><a href="#_19、本地存储都有什么及区别" class="header-anchor">#</a> 19、本地存储都有什么及区别</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>本地存储有localStorage、sessionStorage和cookie，但他们之间是有区别的。
+总结：
+	它们都是用来保存信息的。
+大小区别：
+	localStorage、sessionStorage 可以存储5m，cookie只能存储4kb。
+有效期的区别：
+	localStorage可以长期存储数据，浏览器关闭后数据不丢失，除非手动删除。
+	sessionStorage存储数据在浏览器关闭时自动删除。
+	Cookie可设置过期时间，浏览器关闭后自动消失。
+安全问题：
+	cookie会把消息上传到服务器端最不安全。
+	Localstorage和sessionstorage都会留在本地所以更安全。
+存储位置不同：
+	Localstorage和sessionstorage是把数据存储到本地，cookie是把数据存储在服务端。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h4 id="_20、数组方法-、字符串方法"><a href="#_20、数组方法-、字符串方法" class="header-anchor">#</a> 20、数组方法 、字符串方法</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>ES5中的数组方法有：
+	Pop：删除数组中最后一个元素，返回删除的元素，原数组改变
+	Push：向数组末尾处添加元素，返回数组长度，原数组改变
+	Shift：删除数组中第一个元素，返回删除的元素，原数组改变
+	Unshift：向数组中的头部位置添加元素，返回数组的长度，原数组改变
+	Reverse：数组反转，返回反转后的数组，原数组改变
+	Concat：数组连接，返回一个新数组，原数组不变
+	Join：数组转字符串，返回一个字符串，原数组不变
+	indexOf：查找指定元素在数组中第一次出现的位置，找到返回对应的下标没找到返回-1，原数组不变
+	lastIndexOf：查找指定元素在数组中最后一次出现的位置，找到返回对应的下标没找到返回-1，原数组不变
+	sort：对数组进行排序，返回排序后的数组，原数组改变
+	slice：截取数组元素，返回一个由截取的元素生成的新数组，原数组不变
+	splice：删除、替换数组中的元素，返回修改后的数组，原数组改变
+	
+ES6新增方法：
+	Filter：过滤指定数组中所有符合条件的元素，返回一个新数组，原数组不变
+	Map：按照原数组的元素顺序依次处理元素，返回一个处理后的新数组，(数组元素是值类型则原数组不变，数组元素		为引用（对象）类型，则原数组改变)
+	Some：用于检测数组中的元素是否满足指定条件，如果有一个符合条件的就返回true，如果没有符合条件的返回		false，原数组不变。
+	Every：用于检测数组中的元素是否满足指定条件，如果都满足条件返回true，有一个不满足就返回false，原数组		不变
+	Find：用于查找数组中符合条件的元素，返回原数组中满足条件的第一个值，不满足返回 undefined，原数组不		变。
+	findIndex：用于查找数组中符合条件的元素，返回数组中满足条件的第一个值的下标，不满足返回-1，原数组不			变。
+	Includes：用来判断一个数组是否包含一个指定的值，如果存在返回true，如果不存在返回false，原数组不变。
+	
+ES6新增字符串方法：
+	startsWith：参数字符串是否在原字符串的头部，是返回true、不是返回flase。
+	endsWith：参数字符串是否在源字符串的尾部，是返回true、不是返回flase。
+	repeat：将原字符串重复n次，返回新字符串。
+	padStart：用于头部补全，接受两个参数，第一个参数用来指定字符串的最小长度，第二个参数是用来补全字符串的元素。
+	padEnd：用于尾部补全。接受两个参数，第一个参数用来指定字符串的最小长度，第二个参数是用来补全字符串的元素。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><h4 id="_21、了解eventloop-事件循环-吗"><a href="#_21、了解eventloop-事件循环-吗" class="header-anchor">#</a> 21、了解Eventloop（事件循环）吗？</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>js是单线程语言，一次只能完成一个任务，如果同时完成多个任务怎么办？js把任务分为同步和异步任务，把所有的同步放到主线程上去执行，把所有的异步任务放到事件队列里去，当所有的同步任务都执行完之后，去事件队列中看看有没有没有执行的异步任务，如果有把需要先执行的异步任务拉到主线程上去执行，当这个任务执行完后，再去事件队列里看有没有没完成的任务，如果有再把任务拉到主线程去执行。这样形成一个事件循环。
+
+1、所有的同步任务都在主线程上执行，形成一个执行栈；
+2、在主线程之外还存在一个任务队列，只要异步任务有了运行结果，就会在任务队列中放置一个事件
+3、一旦执行栈中的所有同步任务执行完毕，系统就会读取任务队列，看看里面有哪些事件、哪些异步任务，于是结束等待状态，进入执行栈，开始运行。
+4、主线程会不断循环上面的第三步就是所谓的事件循环。
+Js的单线程也叫主线程，js代码都是在主线程上执行的，我们要区分同步执行还是异步执行，异步执行的代码会对应这一个回调函数，不同任务对应不同的回调，不同的回调交给不同的模块去管理回调什么时候执行，这些模块什么时候把回调放入到事件对列中，JS会通过轮询的方式去询问这个事件队列是否有可执行的回调，如果有会将这个函数钩出去，钩到主线程上去执行。（所回调函数又叫钩子函数）
+
+js他是单线程的，但是它分为同步任务和异步任务，同步任务会放到主线程中去执行，
+
+在ES6中由于增加了promise，所以在异步任务中又分为宏任务和微任务
+宏任务：setTimeout、setInterval、requestAnimationFrame
+	1、宏任务所处的任务队列就是宏任务队列
+	2、第一个宏任务队列中只有一个任务：执行主线程的js代码
+	3、宏任务队列可以有多个
+	4、当宏任务队列中的任务全部执行完会查看是否有位任务队列，如果有先执行微任务中的所有任务，如果没有就查看是否有宏任务
+微任务：promise.then(回调)   process.nexttick(  )
+	1、微任务所处的队列就是微任务队列
+	2、只有一个微任务队列
+	3、在上一个宏任务队列执行完毕后执行，如果有为任务队列就会执行微任务中的所有任务。
+		首先在宏任务的队列中选取出第一个任务，执行完毕后取出为任务队列中的所有任务顺序执行，之后再取出宏任务，周而复始，直至两个队列的任务都取完。
+		
+		setTimeout(function(){
+            console.log(1);
+        },0);
+        new Promise(function(a,b){
+            console.log(2);
+            for(var i=0;i&lt;10;i++){
+                i==9&amp;&amp;a();
+            }
+            console.log(3)
+        }).then(function(){
+            console.log(4)
+        });
+        console.log(5);
+	正确输出顺序为：2，3，5，4，1；
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><h4 id="_22、谈谈你对js闭包的理解。"><a href="#_22、谈谈你对js闭包的理解。" class="header-anchor">#</a> 22、谈谈你对js闭包的理解。</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>闭包就是能够读取函数内部变量的函数
+优点：
+	能够读取函数内部的变量，让这些变量一直存在于内存中，不会在调用结束后，被垃圾回收机制回收。
+缺点：
+	闭包会使函数中的变量保存在内存中，内存消耗很大，而且容易造成内存泄漏，（解决办法就是在退出函数之前，将不使用的局部变量删除）
+	
+	例子：
+    function fn1(){
+                var n = 999;
+            nAdd = function(){
+            n++;
+    };
+    function fn2(){
+        console.log(n);
+    }
+    return fn2;
+    }
+    var result = fn1();
+    result();	//999
+    result();//1000
+    
+因为n被保存了起来并没有被垃圾回收机制回收，所以每次调用都会进行累加
+
+造成内存泄露的几种情况：
+	1）意外的全局变量引起的内存泄露
+    function leak(){  
+      leak=&quot;xxx&quot;;//leak成为一个全局变量，不会被回收  
+    }
+	2）闭包引起的内存泄露
+	3）没有清理的DOM元素引用
+	4）被遗忘的定时器或者回调 
+	5）子元素存在引起的内存泄露
+	
+什么是垃圾回收机制：垃圾收集器会定期找出那些不在继续使用的变量，然后释放其内存。
+垃圾回收机制两个方法：
+	1、标记清除：
+		当变量进入环境时，将变量标记&quot;进入环境&quot;，当变量离开环境时，标记为：&quot;离开环境&quot;。某一个时刻，垃圾回收器会进行过滤，将标记为“离开环境”的变量回收。
+	2、引用计数：
+		引用计数是跟踪记录每个值被引用的次数。被引用一次则加1，当这个引用计数为0时，被视为准备回收的对象。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br></div></div><h4 id="_23、解释一下原型链"><a href="#_23、解释一下原型链" class="header-anchor">#</a> 23、解释一下原型链</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>原型链就是通过原型继承在原型之间建立起来的链型结构被称为原型链
+对象属性查找顺序为：
+    先在对象的私有属性中查找，如果找到则返回该属性对应的值，如果没有找到，就会沿着__proto__属性到它的原型中查找，找到则返会对应的值，没找到，那么会沿着原型链向上查找，直到找到Object构造方法的原型为止，如果还没找到则返回undefined
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="_24、js创建对象的方法"><a href="#_24、js创建对象的方法" class="header-anchor">#</a> 24、JS创建对象的方法</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1，工厂模式
+2，构造函数模式 
+3，原型模式 
+4，混合构造函数和原型模式
+5，动态原型模式 
+6，寄生构造函数模式 
+7，稳妥构造函数模式
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_25、js实现继承的方法"><a href="#_25、js实现继承的方法" class="header-anchor">#</a> 25、JS实现继承的方法</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>原型链继承的缺点：
+	一是字面量重写原型会中断关系，使用引用类型的原型，并且子类型还无法给超类型传递参数。
+
+借用构造函数（类式继承）：
+   借用构造函数虽然解决了刚才两种问题，但没有原型，则复用无从谈起。所以我们需要原型链+借用构造函数的模式，这种模式称为组合继承。
+
+组合式继承：
+   组合式继承是比较常用的一种继承方法，其背后的思路是 使用原型链实现对原型属性和方法的继承，而通过借用构造函数来实现对实例属性的继承。这样，既通过在原型上定义方法实现了函数复用，又保证每个实例都有它自己的属性。
+   1.原型链继承
+   2.借用构造函数继承
+   3.组合继承(原型+借用构造)
+   4.原型式继承
+   5.寄生式继承
+   6.寄生组合式继承
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h4 id="_26、js怎么检测数据类型"><a href="#_26、js怎么检测数据类型" class="header-anchor">#</a> 26、js怎么检测数据类型</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>Js的基本数据类型有：string、number、boolean、null、undefined，ES6中symbol
+复杂数据类型有：object
+
+常用的检测数据类型的方法一般有以下三种：
+1.typeof 一般主要用来检测基本数据类型，因为它检测引用数据类型返回的都是object
+例子：
+   typeof 1
+   &quot;number&quot;
+   
+2.instanceof  这个方法主要是用来准确地检测引用数据类型（不能用来检测基本数据类型）
+例子：
+   function add(){}
+   add instanceof Function  //true
+   
+3.Object.prototype.toString.call()  可以用来准确地检测所有数据类型
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h4 id="_27、说说jsonp的原理"><a href="#_27、说说jsonp的原理" class="header-anchor">#</a> 27、说说jsonp的原理</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1）创建script标签
+		var script = document.createElement('script');
+2)设置回调函数
+	function getData(data){
+		//数据请求回来会被触发的函数
+		console.log(data);
+	}
+3)设置script标签的src属性，设置请求的地址
+		script.src = 'http://localhost:3000?callback=getData'
+4)让script生效
+		document.body.appendChild(script)
+5）后台设置代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_28、前端性能优化的方法"><a href="#_28、前端性能优化的方法" class="header-anchor">#</a> 28、前端性能优化的方法？</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>（1）、当需要设置的样式很多时设置className而不是直接操作style。
+（2）、避免在页面的主题布局中使用table，table要等其中的内容完全下载之后才会显示出来，显示比div+css布局慢。
+（3）、用innerHTML代替DOM操作，减少DOM操作次数，优化javascript性能。
+（4）、减少http请求次数：CSS Sprites，JS、CSS源码压缩，图片大小控制合适；网页GZIP压缩，CDN托管，data缓存，图片服务器。
+（5）、图片预加载，将样式表放在顶部，将脚本放在底部，加上时间戳。
+（6）、前端模板 JS+数据，减少由于html标签导致的代码浪费，前端用变量保存AJAX请求结果，每次操作本地数据，减少请求次数。
+
+（7）、少用全局变量，缓存DOM节点查找的结果。减少IO（输入/输出）读取操作。
+（8）、避免使用CSS Expression(css 表达式)又称动态属性（Dynamic properties）。
+（9）、减少DOM操作；部署前，图片压缩、代码压缩；优化js代码结构，减少冗余代码；减少http请求，合理设置http缓存；使用内容分发cdn加速；静态资源缓存；图片延迟加载；
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h4 id="_29、你遇到过那些js兼容性问题"><a href="#_29、你遇到过那些js兼容性问题" class="header-anchor">#</a> <strong>29、你遇到过那些JS兼容性问题</strong></h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、获取滚动距离的兼容处理
+	document.documentElement.scrollTop ()   非IE
+    document.body.scrollTop()   ==&gt; 兼容IE  
+2、阻止冒泡的兼容处理
+	e.stopPropagation()非IE   ||    e.cancelBubble 兼容IE
+3、阻止默认行为
+	preventDefault( ) 非IE  ||  return  false  兼容IE
+4、DOM2添加监听事件的兼容处理
+	addEventListener 非IE || attachEvent  兼容IE
+5、删除DOM2事件监听
+	removeEventListener 非IE  || detachEvent  兼容IE
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_30、http请求的过程-浏览器是如何解析文档的"><a href="#_30、http请求的过程-浏览器是如何解析文档的" class="header-anchor">#</a> <strong>30、http请求的过程(浏览器是如何解析文档的？)</strong></h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>浏览器解析文档资源、渲染页面的流程
+
+1.DNS解析，将域名地址解析为ip地址（当输入url回车之后）
+	读取浏览器DNS缓存、读取系统DNS缓存、路由器DNS缓存、网络运营商DNS缓存
+	递归搜索   blog.baidu.com
+			.com域名下查DNS解析
+			.baidu域名下查DNS解析
+			.blog域名下查DNS解析
+				出错了
+2.（在跟服务器交互之前）TCP链接  TCP三次握手**
+		第一次握手：由浏览器发起，告诉服务器我要发送请求了
+		第二次握手：由服务器发起，告诉浏览器我准备接收了，你赶紧发送吧。
+		第三次握手：由浏览器发送，告诉服务器，我马上就发了。准备接收吧。
+
+3.发送请求
+	请求报文，HTTP协议的通信内容
+4.接受响应
+	响应报文
+5.渲染页面
+	-遇见HTML标记，浏览器会调用HTML解析器，解析成Token标记（对象上的属性名和属性值）并构成DOM树
+	-遇见style/link标记，浏览器调用css解析器，处理css标记并构建cssDOM树
+	-遇到script标记，调用javascript解析器，处理script代码（绑定事件，修改dom树/cssdom树）
+	-将dom树和cssdom树合并成一个（render）渲染树
+	-根据渲染树来计算布局，计算每个节点的几何信息（布局）
+    -将各个节点颜色绘制到屏幕上（渲染）
+
+	注意：这个5个步骤不一定按照顺序执行，如果dom树或cssdom树被修改了，可能会执行多次布局和渲染，往往实际页面中，这些步骤都会执行多次的。
+
+6.断开链接 TCP的四次挥手
+	第一次挥手：由浏览器发起的，发送给服务器，我东西发送完了（请求报文），你准备关闭吧。
+	第二次挥手：由服务器发起的，告诉浏览器，我东西接受完了（请求报文），我准备关闭了，你也准备吧。
+	第三次挥手：由服务器发起，告诉浏览器，我东西发送完了（响应报文），你准备关闭吧。
+	第四次挥手：由浏览器发起，告诉服务器，我东西接受完了（响应报文），我准备关闭了，你也准备吧
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br></div></div><h4 id="_31-回流和重绘"><a href="#_31-回流和重绘" class="header-anchor">#</a> 31.回流和重绘</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>html 加载时发生了什么
+在页面加载时，浏览器把获取到的HTML代码解析成1个DOM树，DOM树里包含了所有HTML标签，包括display:none隐藏，还有用JS动态添加的元素等。
+
+浏览器把所有样式(用户定义的CSS和用户代理)解析成样式结构体
+
+DOM Tree 和样式结构体组合后构建render tree, render tree类似于DOM tree，但区别很大，因为render tree能识别样式，render tree中每个NODE都有自己的style，而且render tree不包含隐藏的节点(比如display:none的节点，还有head节点)，因为这些节点不会用于呈现，而且不会影响呈现的，所以就不会包含到 render tree中。我自己简单的理解就是DOM Tree和我们写的CSS结合在一起之后，渲染出了render tree。
+
+什么是回流
+当render tree中的一部分(或全部)因为元素的规模尺寸，布局，隐藏等改变而需要重新构建。这就称为回流(reflow)。每个页面至少需要一次回流，就是在页面第一次加载的时候，这时候是一定会发生回流的，因为要构建render tree。在回流的时候，浏览器会使渲染树中受到影响的部分失效，并重新构造这部分渲染树，完成回流后，浏览器会重新绘制受影响的部分到屏幕中，该过程成为重绘。
+
+什么是重绘
+当render tree中的一些元素需要更新属性，而这些属性只是影响元素的外观，风格，而不会影响布局的，比如background-color。则就叫称为重绘。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="三、git"><a href="#三、git" class="header-anchor">#</a> 三、git</h2> <h4 id="_1、git常用命令"><a href="#_1、git常用命令" class="header-anchor">#</a> 1、git常用命令</h4> <p>​	git clone  地址				克隆项目</p> <p>​	git status					查看状态</p> <p>​	git add .						提交到暂存区</p> <p>​	git commit -m '描述'			提交到分支</p> <p>​	git push origin xxx			提交远程</p> <p>​	git pull origin xxx				从远程拉取代码</p> <p>​	git check -b xxx				创建分支</p> <p>​	git checkout  xxx				切换分支</p> <p>​	git branch					查看分支</p> <p>​	git reset --hard '版本号'		恢复版本</p> <p>​	git log						查看日志</p> <p>​	git reflog					查看所有提交的日志</p> <h4 id="_2、git的工作流程-git是怎么工作的"><a href="#_2、git的工作流程-git是怎么工作的" class="header-anchor">#</a> <strong>2、git的工作流程</strong>（git是怎么工作的）</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>通过git add将工作区的代码提交到暂存区，通过git commit将暂存区的代码提交到自己的分支，git push提交到远程仓库
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="_3、git-fetch和git-pull的区别"><a href="#_3、git-fetch和git-pull的区别" class="header-anchor">#</a> <strong>3、git fetch和git pull的区别</strong></h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git pull：相当于是从远程获取最新版本并merge到本地。
+git fetch：相当于是从远程获取最新版本到本地，不会自动merge。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_4、git-pull-和-git-rebase"><a href="#_4、git-pull-和-git-rebase" class="header-anchor">#</a> <strong>4、git pull 和 git rebase</strong></h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git pull：获取远程分支，并更新本地分支。
+git rebase：合并分支到当前分支，只存在一个。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="四、项目中的问题"><a href="#四、项目中的问题" class="header-anchor">#</a> 四、项目中的问题</h2> <p>1、你的项目是独立开发还是合作开发及项目搭建</p> <p>2、最近的项目是负责的那一块，用到了那些技术</p> <p>3、做项目的时候遇到了那些bug,是怎么解决的？</p> <p>4、 git保没保留以前写的项目,能不能看</p> <p>5、曾做的后台管理都用到什么技术，做的是那一模块</p> <p>4、项目是如何测试的？</p> <p>5、如果项目上线了反应有bug，你是怎么解决的？</p> <p>6、项目从无到有的流程</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、产品经理根据客户的需求会出需求文档
+2、着集所有跟这个项目相关的工作人员进行开会商讨（项目的开发时间及上线时间和预算---前端需要几个人，后端需要几个人）
+3、UI一般根据产品经理提出的需求文档绘制一个原型图
+4、UI开始出UI图
+5、项目经理或组长进行项的分工
+6、前端人员需要跟后端人员进行沟通（后端出一个项目的接口文档）
+7、前后端分别开发
+8、完成之后前后端进行联调（接口能不能跑得通、数据能不能正常显示）
+9、测试
+10、上线
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>7、如何调原生接口的</p> <h2 id="五、小程序和react中的问题"><a href="#五、小程序和react中的问题" class="header-anchor">#</a> 五、小程序和react中的问题</h2> <p><strong>1、微信小程序生命周期</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>onLoad()：页面加载时触发。
+onShow()：页面显示/切入前台时触发。
+onReady()：页面初次渲染完成时触发。
+onHide()：页面隐藏/切入后台时触发。
+onUnload()：页面卸载时触发。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>2、小程序用的怎么样</strong></p> <p><strong>3、有过微信小程序及公众号的开发吗</strong></p> <p><strong>4、react做过项目没有</strong></p> <h2 id="六、webpack"><a href="#六、webpack" class="header-anchor">#</a> 六、webpack</h2> <h4 id="_1、webpack是什么"><a href="#_1、webpack是什么" class="header-anchor">#</a> 1、webpack是什么</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>模块化打包机 或者 模块打包工具, 对应到前端开发来说，就是将很多的的 css文件，js文件，图片等“物品”，全都写进一个js文件，而不是在一个html页面通过script,link标签去引入多个静态资源.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="_2、webpack的作用"><a href="#_2、webpack的作用" class="header-anchor">#</a> 2、webpack的作用</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1)进行重新加载编译。实际就是将浏览器不认识的语法编译成浏览器认识的语法。比如less
+编译成css，ES6 语法 转成 ES5等等。
+2)减少io请求。通常我们在请求后，会返回一个html到浏览器。这时，我们如果打开控制台，就会发现在html页面通过script,link等标签引用的静态资源， 浏览器会再次发出请求去获取这些资源。但是webpack的打包，将所有的静态资源都合并好了，减少了io请求。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="_3、webpack的五个核心"><a href="#_3、webpack的五个核心" class="header-anchor">#</a> 3、webpack的五个核心</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、entry
+入口（entry）指示webpack以哪个文件作为入口起点开始打包，分析构建内部依赖图。
+
+2、output
+出口（output）指示webpack打包后的资源 bundles 输出到哪里，以及如何命名。
+
+3、loader
+loader让webpack能够去处理那些非JavaScript资源css、img等，将它们处理成webpack能够识别的资源，可以理解成一个翻译过程（webpack自身只能理解js和json）。
+
+4、plugins
+插件（plugins）可用于执行范围更广的任务。插件的范围包括，从打包优化和压缩，一直到重新定义环境中的变量等。
+
+5、mode
+模式（mode）指示webpack使用相应模式的配置。
+开发模式（development）：配置比较简单，能让代码本地调试运行的环境。
+生产模式（production）：代码需要不断优化达到性能最好。能让代码优化上线运行的环境。
+都会自动启用一些插件，生产模式使用插件更多
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h4 id="_4、webpack的打包优化"><a href="#_4、webpack的打包优化" class="header-anchor">#</a> 4、webpack的打包优化</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>一、优化图片
+	使用 url-loader 优化， 将小图片转化成base64压缩,防止小图片太多请求次数太多。
+二、分离第三方包
+	打包后的 bundle.js文件夹较大，所以每次加载的时候，请求比较慢，所以有必要在打包时将第三方包分离出来。使用 CommonsChunkPlugin 插件进行配置。
+三、分离 css 文件并压缩 css 文件
+	使用 extract -text-webpack-plugin 插件将css文件分离出来。为了使项目加载时候尽早优先加载css样式，也为了解决js文件体积过大的问题
+四、压缩 js 文件
+	使用 uglifyjs -webpack-plugin 将js压缩，减少打包后的 vendor.js , bundle.js 等js的文件大小
+五、压缩Html
+	为了减少打包后的文件体积，使性能更好，效率更高，提高加载速度，打包时有必要进行压缩。
+	使用html-webpack-plugin 进行压缩
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_5、项目中没有用到过webpack配置相关没有怎么去配置过"><a href="#_5、项目中没有用到过webpack配置相关没有怎么去配置过" class="header-anchor">#</a> 5、项目中没有用到过webpack配置相关没有怎么去配置过</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、跨域的配置
+2、2.0项目使用LESS时的配置，4.0的项目无需配置
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="七、人资问题"><a href="#七、人资问题" class="header-anchor">#</a> 七、人资问题</h2> <p>1、自我介绍</p> <p>2、现在是在职还是离职，离职原因</p> <p>3、期望薪资</p> <p>4、上家公司的团队组成</p> <p>5、上家公司有没有给你上保险</p> <p>6、你自己的优势有那些</p> <p>7、加班怎么看，上家公司的薪资构成、离职时的工资是怎么涨的</p> <h2 id="八、html-css"><a href="#八、html-css" class="header-anchor">#</a> 八、HTML+CSS</h2> <h4 id="_1、移动端适配你是如何做的"><a href="#_1、移动端适配你是如何做的" class="header-anchor">#</a> 1、移动端适配你是如何做的？</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>我在上家公司主要使用rem、百分比作单位，使用flex进行布局、利用viewport进行适配，以iphone6为基准适配其他机型 ，对具有刘海屏的手机做特殊处理。当然还有其他的适配方案。
+
+1、宽度自适应、固定高度	（垂直方向用定值，水平方向用百分比、定值、flex）
+2、固定宽度，使用viewprot进行缩放（根据屏幕宽度动态生成viewprot）			
+&lt;meta name = “viewprot” content=”width=640,initial-scale = 0.5,maximum-scale          = 0.5,minimum-scale = 0.5, user-scalable = no”&gt;
+3、使用rem做宽度，viewprot进行缩放（屏幕宽度设顶rem值，需要适配的元素都用rem，不需要适配的元素还是px）			
+原理：	
+	动态生成viewprot
+	给根元素设置font-size
+	根据设备像素比（window.devicePixelRatio）给html设置 data-dpr
+	使用 meta 标签、rem、flex、百分比、viewprot
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_2、如何让一个盒子上下左右都居中"><a href="#_2、如何让一个盒子上下左右都居中" class="header-anchor">#</a> 2、如何让一个盒子上下左右都居中</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、绝对定位、左50%、上50%、margin-left：负的盒子宽的一半、margin-top：负的盒子高的一半
+2、绝对定位、上下左右为0、margin：0 auto
+3、使用弹性盒实现、使用display：flex、justify-content：center、align-items：center
+4、使用定位及变形、给元素绝对定位左50%、上50%、transform：translate（-50% ，-50%）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="_3、说说你的盒模型的理解"><a href="#_3、说说你的盒模型的理解" class="header-anchor">#</a> 3、说说你的盒模型的理解</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>在HTML中，可以把元素看做盒子，每个盒子包括：实际内容（content）、内边距（padding）、边框（border）、外边距（margin），
+1、标准盒模型（W3C标准盒模型）
+标准盒模型（W3C盒子模型），即盒子模型的width（height）=设置的content的宽高+padding+border+margin
+
+2、怪异盒模型（IE盒模型）
+怪异盒模型（IE盒子模型），其盒模型的width（height）=设置的width（height）+外边距margin
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="_4、flex的常用属性"><a href="#_4、flex的常用属性" class="header-anchor">#</a> 4、flex的常用属性</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>父元素添加的属性有：
+	display-flex		设置元素为弹性盒
+	justify-content  	控制子元素横轴排列方式
+	align-items 		控制子元素纵轴的排列方式
+	align-content  		控制多轴的排列方式
+	flex-wrap			是否换行
+	flex-direction  	排列方式（行（row）、列（column））
+	flex-flow			是flex-direction 和 flex-wrap 属性的复合属性，默认值是row nowrap 
+子元素添加的属性有：
+	order：		定义元素的排列顺序，数值越小排列越靠前，默认为0.
+	flex-grow：	定义元素在剩余空间如何放大，默认为0，即有剩余空间也不放大。
+	flex-shrink：定义元素的缩小比例，默认为1，即如果空间不足，该元素将缩小。
+	align-self：	设置子元素在纵轴的排列方式  可以覆盖父容器的align-items的设置。
+	flex-basis：	定义在分配多余空间之前，元素占据主轴的空间。
+	flex：		是flex-grow、flex-shrink、flex-basis的符合属性，默认值为0 1 auto。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h4 id="_5、遇到过浏览器兼容性问题"><a href="#_5、遇到过浏览器兼容性问题" class="header-anchor">#</a> 5、遇到过浏览器兼容性问题</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>PC端：
+	1、由于不同的浏览器之间，默认的样式存在差异，我们可以使用reset.css、normaliz.css，让各个浏览器的默	认样式保持一致。
+	2、对低版本浏览器  需要使用css  hack（比如IE6/7 可以加* _ 的方式）
+	3、Css3新增属性和选择器 低版本浏览器不支持，可以加相应的浏览器内核前缀
+	4、Html5新增标签浏览器不兼容，使用script标签内使用js创建标签，然后使用标签。（当然也可以使用js插	件，就不用我们自己创建标签，直接可以使用）
+	5、对与js事件的兼容处理。
+		a）、获取浏览器窗口大小
+		b）、Event事件 参数问题
+		c）、阻止默认行为、阻止冒泡
+移动端：
+	几乎不存在浏览器兼容性问题主要是对屏幕适配做一些兼容处理。比如使用rem、百分比、viewport的方式。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_6、浮动问题你是怎么解决的"><a href="#_6、浮动问题你是怎么解决的" class="header-anchor">#</a> 6、浮动问题你是怎么解决的?</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、父元素设置高度
+2、使用overflow：hidden
+3、在父元素内多写一个元素，使用行内样式写入style=“clear：both”；
+4、使用万能清除浮动法
+	.clearfixed:after{
+		content:””;
+		clear:both;
+		height:0;
+		display:block;
+		overflow:hidden
+	}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="_7、移动端适配meta标签-viewport-有哪些属性"><a href="#_7、移动端适配meta标签-viewport-有哪些属性" class="header-anchor">#</a> 7、移动端适配meta标签(viewport)有哪些属性</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;meta name=&quot;viewport&quot; content=&quot;maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0&quot;/&gt;
+作用：
+	在移动浏览器中，当页面宽度超出设备，浏览器内部虚拟的一个页面容器，将页面容器缩放到设备那么大展示；
+	视口的宽度可以通过meta标签设置；
+	此属性为移动端页面视口设置；
+width：视口的宽度，width= device -width：宽度是设备的宽度
+initial-scale：初始化缩放，- initial-scale=1.0：不缩放
+user-scalable：是否允许用户自行缩放，取值0或1，yes或no
+minimum-scale：最小缩放
+maximum-scale：最大缩放
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h4 id="_8、position定位有那些属性及区别是什么"><a href="#_8、position定位有那些属性及区别是什么" class="header-anchor">#</a> 8、position定位有那些属性及区别是什么</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>一共有五个分别是： relative相对定位、absolute绝对定位、fixed固定定位、static 默认值、inherit。
+常用的有三个：relative、absolute、fixed
+特点：
+	Relative相对定位：元素本身位置会被保留，是根据自身位置进行偏移
+	Absolute绝对定位：元素本身位置不被保留，根据离他最近的具有定位属性的父元素进行偏移，如果父级没有定位，那么会根据根元素进行偏移。
+	Fixed固定定位：元素本身位置不被保留，根据浏览器窗口进行偏移。
+	static  默认值。没有定位，元素出现在正常的流中（忽略 top, bottom, left, right z-index 声明）。
+ 	inherit 规定从父元素继承 position 属性的值。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h4 id="_9、ios端是如何适配的"><a href="#_9、ios端是如何适配的" class="header-anchor">#</a> 9、IOS端是如何适配的</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、分析机型:整体上把现有的iOS屏幕分为两大类，非全面屏和全面屏
+		非全面屏：（6、6s、7、8）和Plus系列（6 Plus、6s Plus、7 Plus、8 Plus)
+		全面屏： iPhoneX  iPhoneXR  iPhone 11 等 
+		屏幕尺寸总结，iPhone在逻辑像素共有四种，375x667，375x812，414x736，414x896
+2、安全区域
+		非全面屏都是矩形，整个屏幕都是安全区域。
+		全面屏受到大圆角、刘海以及底部的影响，UI图更需要考虑安全区域
+			顶部44pt、 底部34pt	
+3、以iphone6为进行制作去适配其它机型，对iphoneX单独处理。
+	iphoneX的处理方案：
+		通栏页面：
+			1、对于通栏页面在页面顶部增加一层高度44px的黑色适配层，整个页面往下挪44px
+			2、在页面底部增加一层高度34px的适配层，将操作栏上移34px
+		非通栏页面
+			解决方案：在页面底部增加一层高度34px的颜色块，将操作栏上移34px
+		添加 viewport-fit	
+		 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, viewport-fit=cover&quot;&gt;
+	第一种解决方案： 针对以上三点所需要对iphoneX添加适配层	
+		修改页面viewport-fit属性
+		在H5页面链接一个iphonex.css来给iPhone X访问的页面增加对应的适配层（专门对iphoneX的一个			CSS样式）
+		在H5页面上给对应的dom结构加上适配的类名	
+	第二种解决方案：
+    	针对iPhone X机型，在原生界面初始化的时候可选择是否要增加适配层。
+        对于顶部通栏的页面，通过加URL参数来增加顶部黑色适配层。
+		对于有底部操作栏（包括通栏和非通栏），通过加URL参数来增加底部适配层以及设置颜色。
+	参考网址：
+        https://www.cnblogs.com/zhangruiqi/p/7831019.html
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><h4 id="_10、了解2x图和3x图吗"><a href="#_10、了解2x图和3x图吗" class="header-anchor">#</a> 10、了解2X图和3X图吗</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>所谓的2X图和3X图就是屏幕显示模式。也可以理解为一个点等于多少个像素。
+由于像素都是由一个个小点组成，所以2X图中相当于一个点等于2像素，3X图中相当于一个点等于3像素。
+.通过 mixin,动态修改图标的背景图片。通过@media (媒体查询)，判断设备的dpr。
+
+@mixin bg-image($url) {
+    background-image: url($url + &quot;@2x.png&quot;);
+    @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+        background-image: url($url + &quot;@3x.png&quot;);
+    }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h4 id="_11、h5-怎么引用原生代码-和原生怎么引入h5代码"><a href="#_11、h5-怎么引用原生代码-和原生怎么引入h5代码" class="header-anchor">#</a> 11、H5 怎么引用原生代码，和原生怎么引入H5代码</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>通过 JSbrige
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><div class="language-pii line-numbers-mode"><pre class="language-text"><code>H5怎么引用原生js
+参考网址： 		
+	https://www.cnblogs.com/kunmomo/p/11556135.html
+	https://www.cnblogs.com/kunmomo/p/11556125.html
+	
+方法一：Android向H5注入全局js对象，也就是H5调Android
+方法二：H5发起自定义协议请求，Android拦截请求，再由Android调用H5中的回调函数
+	web端调用原生端有两种方式
+		1:拦截WebView请求的URL Schema
+		2:向WebView注入JS API
+		
+		(调原生端的一个方法，原生端来实现的这个方法)
+	原生端调用web端只有一种方式  1：直接调用JS代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2/20/2024, 3:12:42 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/news/毕业班面试内容整理.html" class="prev">
+        毕业班面试内容整理
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="right:68px;bottom:190px;display:none;" data-v-5775ee02>
+      欢迎来到 latte and cat qq201349019
+    </div> <div class="operation" style="right:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:none;" data-v-5775ee02></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="right:90px;bottom:-20px;opacity:0.9;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div><div></div></div></div>
+    <script src="/assets/js/app.c42c3ddb.js" defer></script><script src="/assets/js/3.7ebe874d.js" defer></script><script src="/assets/js/46.40228b2d.js" defer></script>
+  </body>
+</html>
